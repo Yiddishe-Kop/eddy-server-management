@@ -1,7 +1,5 @@
 <template>
-    <pre
-        v-bind="$attrs"
-    ><span v-for="(span, index) in html.spans" :key="index" :style="span.css" v-html="span.text" /> </pre>
+    <pre v-bind="$attrs" class="ansicolor"><span v-for="(span, index) in html.spans" :key="index" :style="span.css" v-html="span.text" /> </pre>
 </template>
 
 <script setup>
@@ -18,3 +16,8 @@ const props = defineProps({
 const html = computed(() => parse(props.value));
 </script>
 
+<style>
+.ansicolor {
+    @apply overflow-x-auto rounded-lg bg-gray-800 p-3 text-white;
+}
+</style>
