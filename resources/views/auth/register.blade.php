@@ -21,8 +21,8 @@
         @if (\Laravel\Jetstream\Jetstream::hasTermsAndPrivacyPolicyFeature())
             <x-splade-checkbox name="terms">
                 {!! __('I agree to the :terms_of_service and :privacy_policy', [
-                    'terms_of_service' => '<a target="_blank" href="'.route('terms.show').'" class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">'.__('Terms of Service').'</a>',
-                    'privacy_policy' => '<a target="_blank" href="'.route('policy.show').'" class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500">'.__('Privacy Policy').'</a>',
+                    'terms_of_service' => '<a target="_blank" href="'.route('terms.show').'" class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-500">'.__('Terms of Service').'</a>',
+                    'privacy_policy' => '<a target="_blank" href="'.route('policy.show').'" class="underline text-sm text-gray-600 hover:text-gray-900 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-brand-500">'.__('Privacy Policy').'</a>',
                 ]) !!}
             </x-splade-checkbox>
         @endif
@@ -30,7 +30,7 @@
         <div class="flex items-center justify-end">
             <Link
                 href="{{ route('login') }}"
-                class="rounded-md text-sm text-gray-600 underline hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                class="rounded-md text-sm text-gray-600 underline hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2"
             >
                 {{ __('Already registered?') }}
             </Link>

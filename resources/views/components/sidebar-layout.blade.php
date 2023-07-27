@@ -32,11 +32,11 @@
                         href="{{ $href($item) }}"
                         @class([
                             'group flex items-center rounded-md px-3 py-2 text-sm font-medium',
-                            'bg-gray-50 text-indigo-600 hover:bg-white' => $item->current,
+                            'bg-gray-50 text-brand-600 hover:bg-white' => $item->current,
                             'text-gray-900 hover:bg-gray-50 hover:text-gray-900' => ! $item->current,
                         ])
                     >
-                        @svg($item->icon, $item->current ? 'text-indigo-500 -ml-1 mr-3 h-6 w-6 flex-shrink-0' : 'text-gray-400 group-hover:text-gray-500 -ml-1 mr-3 h-6 w-6 flex-shrink-0')
+                        @svg($item->icon, $item->current ? 'text-brand-500 -ml-1 mr-3 h-6 w-6 flex-shrink-0' : 'text-gray-400 group-hover:text-gray-500 -ml-1 mr-3 h-6 w-6 flex-shrink-0')
                         <span class="truncate">{{ $item->label }}</span>
                     </Link>
                 @endforeach

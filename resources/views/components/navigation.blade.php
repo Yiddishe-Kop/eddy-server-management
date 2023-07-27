@@ -40,7 +40,7 @@
                                     <span class="inline-flex rounded-md">
                                         <button
                                             type="button"
-                                            class="inline-flex items-center rounded-md border border-transparent bg-white px-2 py-2 text-sm font-medium leading-4 text-indigo-900 transition duration-150 ease-in-out hover:bg-indigo-50 focus:bg-indigo-50 focus:outline-none active:bg-indigo-50"
+                                            class="inline-flex items-center rounded-md border border-transparent bg-white px-2 py-2 text-sm font-medium leading-4 text-brand-900 transition duration-150 ease-in-out hover:bg-brand-50 focus:bg-brand-50 focus:outline-none active:bg-brand-50"
                                         >
                                             @svg('heroicon-o-building-office', 'h-6 w-6')
                                         </button>
@@ -125,7 +125,7 @@
                                     <span class="inline-flex rounded-md">
                                         <button
                                             type="button"
-                                            class="inline-flex items-center rounded-md border border-transparent bg-white px-2 py-2 text-sm font-medium leading-4 text-indigo-900 transition duration-150 ease-in-out hover:bg-indigo-50 focus:bg-indigo-50 focus:outline-none active:bg-indigo-50"
+                                            class="inline-flex items-center rounded-md border border-transparent bg-white px-2 py-2 text-sm font-medium leading-4 text-brand-900 transition duration-150 ease-in-out hover:bg-brand-50 focus:bg-brand-50 focus:outline-none active:bg-brand-50"
                                         >
                                             @svg('heroicon-o-user-circle', 'h-6 w-6')
                                         </button>

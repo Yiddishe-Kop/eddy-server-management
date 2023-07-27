@@ -44,7 +44,7 @@
                                 <x-splade-link
                                     method="delete"
                                     :href="route('current-user-photo.destroy')"
-                                    class="relative inline-block cursor-pointer rounded-md border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-100 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                                    class="relative inline-block cursor-pointer rounded-md border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-100 focus:border-brand-300 focus:outline-none focus:ring focus:ring-brand-200 focus:ring-opacity-50"
                                 >
                                     {{ __('Remove Photo') }}
                                 </x-splade-link>
@@ -85,7 +85,7 @@
 
                 <button
                     type="submit"
-                    class="inline rounded-md text-sm text-gray-600 underline hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+                    class="inline rounded-md text-sm text-gray-600 underline hover:text-gray-900 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-2"
                 >
                     {{ __('Click here to re-send the verification email.') }}
                 </button>

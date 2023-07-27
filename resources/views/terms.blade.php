@@ -12,7 +12,7 @@
             <div class="mt-8 flex items-center justify-center space-x-4">
                 <a
                     download
-                    class="rounded-md border border-transparent bg-indigo-500 px-4 py-2 font-bold text-white shadow-sm hover:bg-indigo-700 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    class="rounded-md border border-transparent bg-brand-500 px-4 py-2 font-bold text-white shadow-sm hover:bg-brand-700 focus:border-brand-300 focus:outline-none focus:ring focus:ring-brand-200 focus:ring-opacity-50"
                     href="{{ Storage::url('nl-digital-voowaarden-en.pdf') }}"
                     target="_blank"
                 >
@@ -20,7 +20,7 @@
                 </a>
 
                 <a
-                    class="rounded-md border border-transparent bg-indigo-500 px-4 py-2 font-bold text-white shadow-sm hover:bg-indigo-700 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    class="rounded-md border border-transparent bg-brand-500 px-4 py-2 font-bold text-white shadow-sm hover:bg-brand-700 focus:border-brand-300 focus:outline-none focus:ring focus:ring-brand-200 focus:ring-opacity-50"
                     rel="noopener noreferrer"
                     href="https://get.adobe.com/reader/?loc=en"
                     target="_blank"

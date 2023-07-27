@@ -3,7 +3,7 @@
         <div
             v-if="state.shared.jetstreamBanner && toggled"
             :class="{
-            'bg-indigo-500': state.shared.jetstreamBanner.bannerStyle != 'danger',
+            'bg-brand-500': state.shared.jetstreamBanner.bannerStyle != 'danger',
             'bg-red-700': state.shared.jetstreamBanner.bannerStyle == 'danger'
         }"
         >
@@ -13,7 +13,7 @@
                         <span
                             class="flex rounded-lg p-2"
                             :class="{
-                            'bg-indigo-600': state.shared.jetstreamBanner.bannerStyle != 'danger',
+                            'bg-brand-600': state.shared.jetstreamBanner.bannerStyle != 'danger',
                             'bg-red-600': state.shared.jetstreamBanner.bannerStyle == 'danger'
                         }"
                         >
@@ -54,7 +54,7 @@
                             type="button"
                             class="-mr-1 flex rounded-md p-2 transition focus:outline-none sm:-mr-2"
                             :class="{
-                                'hover:bg-indigo-600 focus:bg-indigo-600': state.shared.jetstreamBanner.bannerStyle != 'danger',
+                                'hover:bg-brand-600 focus:bg-brand-600': state.shared.jetstreamBanner.bannerStyle != 'danger',
                                 'hover:bg-red-600 focus:bg-red-600': state.shared.jetstreamBanner.bannerStyle == 'danger'
                             }"
                             aria-label="Dismiss"

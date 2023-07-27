@@ -11,7 +11,7 @@
                         @foreach ($availableRoles as $role)
                             <button
                                 type="button"
-                                class="relative inline-flex w-full rounded-lg px-4 py-3 focus:z-10 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                                class="relative inline-flex w-full rounded-lg px-4 py-3 focus:z-10 focus:border-brand-500 focus:outline-none focus:ring-2 focus:ring-brand-500"
                                 :class="{'border-t border-gray-200 focus:border-none rounded-t-none': @json(! $loop->first), 'rounded-b-none': @json(! $loop->last)}"
                                 @click="form.role = @json($role->key)"
                             >

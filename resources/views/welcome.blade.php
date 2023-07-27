@@ -3,7 +3,7 @@
 >
     <div class="absolute left-1/2 top-0 ml-[-50%] h-[50vh] w-full">
         <div
-            class="absolute inset-0 bg-gradient-to-r from-indigo-600 to-indigo-700 opacity-70 [mask-image:radial-gradient(farthest-side_at_top,white,transparent)]"
+            class="absolute inset-0 bg-gradient-to-r from-brand-600 to-brand-700 opacity-70 [mask-image:radial-gradient(farthest-side_at_top,white,transparent)]"
         ></div>
     </div>
 
@@ -20,7 +20,7 @@
             @auth
                 <Link
                     href="{{ route('servers.index') }}"
-                    class="rounded-md border border-transparent bg-indigo-500 px-4 py-2 font-bold text-white shadow-sm hover:bg-indigo-700 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    class="rounded-md border border-transparent bg-brand-500 px-4 py-2 font-bold text-white shadow-sm hover:bg-brand-700 focus:border-brand-300 focus:outline-none focus:ring focus:ring-brand-200 focus:ring-opacity-50"
                 >
                     Dashboard
                 </Link>
@@ -29,13 +29,13 @@
             @guest
                 <Link
                     href="{{ route('login') }}"
-                    class="rounded-md border border-transparent bg-indigo-500 px-4 py-2 font-bold text-white shadow-sm hover:bg-indigo-700 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    class="rounded-md border border-transparent bg-brand-500 px-4 py-2 font-bold text-white shadow-sm hover:bg-brand-700 focus:border-brand-300 focus:outline-none focus:ring focus:ring-brand-200 focus:ring-opacity-50"
                 >
                     Log in
                 </Link>
                 <Link
                     href="{{ route('register') }}"
-                    class="rounded-md border border-transparent bg-indigo-500 px-4 py-2 font-bold text-white shadow-sm hover:bg-indigo-700 focus:border-indigo-300 focus:outline-none focus:ring focus:ring-indigo-200 focus:ring-opacity-50"
+                    class="rounded-md border border-transparent bg-brand-500 px-4 py-2 font-bold text-white shadow-sm hover:bg-brand-700 focus:border-brand-300 focus:outline-none focus:ring focus:ring-brand-200 focus:ring-opacity-50"
                 >
                     Register
                 </Link>

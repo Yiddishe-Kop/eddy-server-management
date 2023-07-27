@@ -27,7 +27,7 @@
             <a
                 href="/dashboard"
                 aria-describedby="tier-{{ $name }}"
-                class="@if($default) bg-indigo-600 shadow-sm hover:bg-indigo-500 focus-visible:outline-indigo-600 @else bg-white/10 hover:bg-white/20 focus-visible:outline-white @endif rounded-md px-3 py-2 text-center text-sm font-semibold leading-6 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+                class="@if($default) bg-brand-600 shadow-sm hover:bg-brand-500 focus-visible:outline-brand-600 @else bg-white/10 hover:bg-white/20 focus-visible:outline-white @endif rounded-md px-3 py-2 text-center text-sm font-semibold leading-6 text-white focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
             >
                 Get Started
             </a>

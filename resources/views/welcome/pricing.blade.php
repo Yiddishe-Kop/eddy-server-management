@@ -15,11 +15,11 @@
                     <fieldset class="grid grid-cols-2 gap-x-1 rounded-full bg-white/5 p-1 text-center text-xs font-semibold leading-5 text-white">
                         <legend class="sr-only">Payment frequency</legend>
 
-                        <label @click="setToggle(false)" class="cursor-pointer rounded-full px-2.5 py-1" :class="{'bg-indigo-500': !toggled}">
+                        <label @click="setToggle(false)" class="cursor-pointer rounded-full px-2.5 py-1" :class="{'bg-brand-500': !toggled}">
                             <span>Monthly</span>
                         </label>
 
-                        <label @click="setToggle(true)" class="cursor-pointer rounded-full px-2.5 py-1" :class="{'bg-indigo-500': toggled}">
+                        <label @click="setToggle(true)" class="cursor-pointer rounded-full px-2.5 py-1" :class="{'bg-brand-500': toggled}">
                             <span>Annually</span>
                         </label>
                     </fieldset>
