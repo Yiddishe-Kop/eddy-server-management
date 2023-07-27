@@ -51,7 +51,7 @@ export default {
 
         return this.$slots.default({
             prism: h(PrismEditor, {
-                class: "rounded-md border border-gray-300 disabled:opacity-50 text-gray-700 font-mono px-3 py-2 bg-white shadow-sm leading-7 text-sm !mt-0 focus:border-brand-300 focus:ring focus:ring-brand-200 focus:ring-opacity-50 break-all",
+                class: "rounded-md border border-gray-300 disabled:opacity-50 text-white font-mono px-3 py-2 bg-gray-800 leading-7 text-sm !mt-0 focus:border-brand-300 focus:ring focus:ring-brand-200 focus:ring-opacity-50 break-all",
                 highlight: (code) => {
                     return highlight(code, language);
                 },
